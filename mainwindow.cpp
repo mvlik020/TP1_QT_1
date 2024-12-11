@@ -24,7 +24,7 @@ void MainWindow::on_MiseSousTension_clicked()
         clickTension = false;
     } else {
         // modification du texte
-        ui->EtatTension->setText("Mise hors tension");
+        ui->EtatTension->setText("Mise hors tension"); //affichage
         ui->EtatTension->setDisabled(true);
         clickTension = true;
     }
